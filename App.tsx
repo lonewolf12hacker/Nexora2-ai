@@ -1,13 +1,11 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Features from './components/Features';
-import Showcase from './components/Showcase';
-import Testimonials from './components/Testimonials';
-import Pricing from './components/Pricing';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
+import Navbar from './Navbar.tsx';
+import Hero from './Hero.tsx';
+import Features from './Features.tsx';
+import TechnicalGrid from './TechnicalGrid.tsx';
+import Testimonials from './Testimonials.tsx';
+import Pricing from './Pricing.tsx';
+import CTA from './CTA.tsx';
+import Footer from './Footer.tsx';
 
 export default function App() {
   return (
